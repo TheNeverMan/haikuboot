@@ -1,6 +1,6 @@
 # haikuboot
 HaikuBoot is a linux based operating system which only interprets code written in Haiku (my esolang).
-<<<<<<< HEAD
+
 Its purpose is to create a standalone environment for Haiku code execution. Can be booted by any linux-compatibile environment.
 
 HOW DOES IT WORK?
@@ -18,5 +18,3 @@ PREBUILT DISK IMAGE
 -------------------
 
 Prebuilt disk image (in disk-images) is 1 GB raw disk file, bootable in EFI made for x86_64, you can burn it to pendrive or other storage media. Don't forget to adjust root partition size.
-=======
->>>>>>> 93e515752e5b55a7d32905fe53d0082bf9db09d7`
