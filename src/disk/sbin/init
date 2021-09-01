@@ -1,0 +1,10 @@
+#!/bin/sh -f
+#init
+busybox sleep 1
+busybox clear
+busybox echo "Welcome to HaikuBoot v1.1"
+hk --version
+hk --hide-errors /usr/ppm/sys.ppm
+#put you scripts here if you want
+#nothing left to do but shutdown
+busybox poweroff -f -d 5
